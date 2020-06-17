@@ -1,0 +1,176 @@
+                                        /*AREA DO CABEÇALHO*/
+                                    
+                                    header {
+                                        text-align: center;
+                                        min-height: 5vh;
+                                    }
+                                    
+                                    header#barra_sup {
+                                        background-color: #174873;
+                                    }
+                                    
+                                    header img {
+                                        height: 80px;
+                                    }
+                                    
+                                    section#menu_sup {
+                                        box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.295);
+                                    }
+                                    /*AREA DO CARROSSEL*/
+                                    
+                                    section#carrousel {
+                                        /*background-color: teal;*/
+                                        min-height: 25vh;
+                                        text-align: center;
+                                    }
+                                    /*ONDE ESTAMOS*/
+                                    
+                                    section#onde_estamos {
+                                        background-color: rgb(0, 55, 128);
+                                        min-height: 25vh;
+                                        text-align: center;
+                                    }
+                                    /*CONTATOS*/
+                                    
+                                    section#contatos {
+                                        background-color: #1c2f3a;
+                                        ;
+                                        ;
+                                        min-height: 55vh;
+                                        text-align: center;
+                                    }
+                                    /*FORMULÁRIOS*/
+                                    
+                                    .bg {
+                                        background-color: #253944;
+                                        border: none;
+                                    }
+                                    
+                                    .bg:focus {
+                                        background-color: #253944;
+                                        border: none;
+                                    }
+                                    
+                                    section h3 {
+                                        color: rgb(216, 212, 204);
+                                        margin-left: 10px;
+                                        margin-top: 10px;
+                                    }
+                                    /*BOTÕES*/
+                                    
+                                    .bt_menu {
+                                        background-color: #253944;
+                                        box-shadow: 1px 1px 1px rgba(172, 169, 165, 0.788);
+                                        border: none;
+                                        width: 70%;
+                                    }
+                                    
+                                    .bt:hover {
+                                        background-color: #6193ad;
+                                        transition: .8s;
+                                    }
+                                    /*ICONES*/
+                                    
+                                    .social-icons a {
+                                        display: inline-block;
+                                        height: 3.5rem;
+                                        width: 3.5rem;
+                                        background-color: #15536b;
+                                        color: #fff!important;
+                                        border-radius: 100%;
+                                        text-align: center;
+                                        font-size: 1.5rem;
+                                        line-height: 3.5rem;
+                                        margin-right: 1rem
+                                    }
+                                    
+                                    .social-icons a:last-child {
+                                        margin-right: 0
+                                    }
+                                    
+                                    .social-icons a:hover {
+                                        background-color: #2089b3
+                                    }
+                                    
+                                    footer {
+                                        min-height: 60px;
+                                        background-color: #1a2830;
+                                        border-top: 1px solid rgba(27, 26, 26, 0.596);
+                                        box-shadow: 1px 1px 1px #BDBDBD;
+                                    }
+                                    
+                                    footer img {
+                                        width: 16vh;
+                                    }
+                                    
+                                    .btn-3 {
+                                        color: #174873;
+                                        background: none;
+                                        border: none;
+                                    }
+                                    
+                                    .btn-3:hover {
+                                        font-weight: bolder;
+                                        text-decoration-color: #174873;
+                                        color: #174873;
+                                        letter-spacing: 6px;
+                                        text-transform: uppercase;
+                                        border-top: 1px solid #174873;
+                                        border-bottom: 1px solid #174873;
+                                        transition: 1s;
+                                        display: block;
+                                        max-width: 576px;
+                                    }
+                                    /* MEDIA QUERIES - CONFIGURAÇÃO DOS BREACKPOINTS */
+                                    
+                                    @media (min-width: 576px) {
+                                        @media (min-width: 768px) {}
+                                        @media (min-width: 992px) {}
+                                        @media (min-width: 1200px) {
+                                            .btn-2 {
+                                                letter-spacing: 0;
+                                            }
+                                            .btn-2:hover,
+                                            .btn-2:active {
+                                                letter-spacing: 5px;
+                                            }
+                                            .btn-2:after,
+                                            .btn-2:before {
+                                                backface-visibility: visible;
+                                                border: 1px solid rgba(black, 0);
+                                                bottom: 0px;
+                                                content: " ";
+                                                display: block;
+                                                margin: 0 auto;
+                                                position: relative;
+                                                transition: all 280ms ease-in-out;
+                                                width: 0;
+                                            }
+                                            .btn-2:hover:after,
+                                            .btn-2:hover:before {
+                                                backface-visibility: visible;
+                                                border-color: black;
+                                                transition: width 350ms ease-in-out;
+                                                width: 70%;
+                                            }
+                                            .btn-2:hover:before {
+                                                bottom: auto;
+                                                top: 0;
+                                                width: 70%;
+                                            }
+                                            .btn-3 {
+                                                color: #174873;
+                                                background: none;
+                                                border: none;
+                                            }
+                                            .btn-3:hover {
+                                                font-weight: bolder;
+                                                text-decoration-color: #174873;
+                                                color: #174873;
+                                                letter-spacing: 1px;
+                                                text-transform: uppercase;
+                                                border-top: 1px solid #174873;
+                                                border-bottom: 1px solid #174873;
+                                                transition: 1s;
+                                            }
+                                        }
