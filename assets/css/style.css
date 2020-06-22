@@ -85,11 +85,14 @@ section h3 {
     color: rgba(255, 255, 255, 0.877);
     transition: all 0.3s;
     position: relative;
-    width: 9rem;
+    width: 8rem;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    margin-right: -10px;
 }
 
 .btn-one i {
-    font-size: 11pt;
+    font-size: 10pt;
     margin: 0px;
     padding: 0px;
 }
@@ -145,17 +148,22 @@ section h3 {
 
 /*ICONES*/
 
+.social-icons {
+    padding: 0px;
+}
+
 .social-icons a {
     display: inline-block;
-    height: 3.5rem;
-    width: 3.5rem;
+    height: 3.8rem;
+    width: 3.8rem;
     background-color: #15536b;
     color: #fff!important;
     border-radius: 100%;
     text-align: center;
-    font-size: 1.5rem;
-    line-height: 3.5rem;
-    margin-right: 1rem;
+    font-size: 1.8rem;
+    line-height: 3.8rem;
+    margin-right: 0.5rem;
+    margin-left: 0px;
 }
 
 .social-icons a:last-child {
@@ -171,8 +179,9 @@ section h3 {
     color: rgba(255, 255, 255, 0.774);
     border-radius: 100%;
     text-align: center;
-    font-size: .8rem;
-    margin-right: 0.2rem;
+    font-size: 1rem;
+    margin-right: 0.8rem;
+    margin-left: -5px;
 }
 
 .icons a:last-child {
@@ -228,7 +237,9 @@ footer img {
         transition: all 0.3s;
         position: relative;
         width: 11rem;
-        height: 30px;
+        margin-top: 6px;
+        margin-bottom: 6px;
+        padding: 8px;
     }
     .btn-one i {
         color: white;
@@ -240,7 +251,20 @@ footer img {
         border-radius: 100%;
         text-align: center;
         font-size: 1.1rem;
-        margin-right: 0.5rem;
+        margin-right: 1rem;
+    }
+    .social-icons a {
+        display: inline-block;
+        height: 4rem;
+        width: 4rem;
+        background-color: #15536b;
+        color: #fff!important;
+        border-radius: 100%;
+        text-align: center;
+        font-size: 2rem;
+        line-height: 4rem;
+        margin-right: 1.5rem;
+        margin-left: 0px;
     }
 }
 

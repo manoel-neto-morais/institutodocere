@@ -16,3 +16,12 @@
         });
     }, false);
 })();
+
+//inicializa os popovers
+$(function() {
+    $('[data-toggle="popover"]').popover()
+})
+
+$(function() {
+    $('[data-toggle="popover"]').popover({ html: true })
+})
