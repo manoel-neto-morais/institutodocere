@@ -1,11 +1,16 @@
 @charset "UTF-8";
+.fotos {
+    overflow-x: scroll;
+    height: 220px;
+}
+
 ul#album-fotos {
-    width: 320px;
+    width: auto;
     margin: 0 auto;
-    padding: 5px;
-    overflow: hidden;
+    padding: 0px;
     list-style: none;
     align-items: center;
+    overflow-x: scroll;
 }
 
 ul#album-fotos li {
@@ -41,7 +46,7 @@ ul#album-fotos li:hover span {
 ul#album-fotos li#foto01 {
     background: url('../img/Sobral/67566073_2284095068568447_646624476217212928_o.jpg') no-repeat;
     background-position: 50% 50%;
-    background-size: 400px 400px;
+    background-size: contain;
     background-color: #fff;
 }
 
