@@ -196,35 +196,29 @@
     <!--ONDE ESTAMOS-->
     <div class="container-fluid">
         <section class="row" id="onde_estamos">
-            <div class="col-12 onde_estamos d-lg-flex justify-content-lg-around p-2">
+            <div class="col-12 onde_estamos d-lg-flex justify-content-lg-around p-2 overflow-hidden">
 
                 <div class="mapa">
-                    <h1>Onde estamos</h1>
-                    <img src="assets/img/mapa.png" alt="">
+                    <h1>Onde estamos!</h1>
+                    <img src="assets/img/mapa.png" usemap="#meumapa">
+                    <map name="meumapa">
+                        <!-- <area shape="rect" coords="179,202,270,260" href="google-glass.html#tela" target="janela"> -->
+
+                        <area shape="circle" coords="77,51,10.5" href="#" onclick="changecity()" style="cursor: pointer;">
+                      </map>
+
                 </div>
 
-                <h2>Sobral</h2>
+                <h2 id="regiao">Sobral</h2>
                 <div class="fotos align-items-center justify-content-center  flex-wrap">
 
                     <ul id="album-fotos" class="d-inline-flex flex-grow-1">
-                        <li id="foto01">
-                            <span> Agenda e lembretes </span>
-                        </li>
-                        <li id="foto02">
-
-                        </li>
-                        <li id="foto03">
-
-                        </li>
-                        <li id="foto04">
-
-                        </li>
-                        <li id="foto05">
-
-                        </li>
-                        <li id="foto06">
-
-                        </li>
+                        <li id="foto01"></li>
+                        <li id="foto02"></li>
+                        <li id="foto03"></li>
+                        <li id="foto04"></li>
+                        <li id="foto05"></li>
+                        <li id="foto06"></li>
                     </ul>
                 </div>
 

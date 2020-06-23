@@ -25,3 +25,10 @@ $(function() {
 $(function() {
     $('[data-toggle="popover"]').popover({ html: true })
 })
+
+//manipula fotos
+
+function changecity() {
+    let region = document.getElementById("regiao")
+    region.innerHTML = "Tianguá"
+}

@@ -1,6 +1,7 @@
 @charset "UTF-8";
 .fotos {
     overflow-x: scroll;
+    overflow-y: visible;
     height: 225px;
 }
 
@@ -10,7 +11,6 @@ ul#album-fotos {
     padding: 0px;
     list-style: none;
     align-items: center;
-    overflow-x: scroll;
     border-top: 2px solid #174873;
     border-bottom: 2px solid #174873;
     box-shadow: 0px 4px 2px 3px rgba(0, 0, 0, 0.39);
@@ -50,7 +50,6 @@ ul#album-fotos li:hover span {
 ul#album-fotos li#foto01 {
     background: url('../img/Sobral/at.jpg') no-repeat;
     background-position: 50% 50%;
-    background-size: contain;
     background-color: #fff;
 }
 
@@ -62,7 +61,7 @@ ul#album-fotos li#foto01:hover {
 ul#album-fotos li#foto02 {
     background: url('../img/Sobral/75497668_2366626576981962_5475683556908859392_o.jpg') no-repeat;
     background-position: 50% 50%;
-    background-size: 400px 400px;
+    background-size: 200px 200px;
     background-color: #fff;
 }
 
@@ -87,7 +86,6 @@ ul#album-fotos li#foto04 {
     background: url('../img/Sobral/78416001_2390753717902581_1316875374256193536_o.jpg') no-repeat;
     background-position: 50% 50%;
     background-size: 400px 400px;
-    background-color: #fff;
 }
 
 ul#album-fotos li#foto04:hover {
@@ -99,7 +97,6 @@ ul#album-fotos li#foto05 {
     background: url('../img/Sobral/78791149_2390753891235897_4263191646180474880_o.jpg') no-repeat;
     background-position: 50% 50%;
     background-size: 400px 400px;
-    background-color: #fff;
 }
 
 ul#album-fotos li#foto05:hover {
@@ -117,5 +114,4 @@ ul#album-fotos li#foto06 {
 ul#album-fotos li#foto06:hover {
     background-position: 0px 0px;
     background-size: 100% 100%;
-    z-index: 2000;
 }
