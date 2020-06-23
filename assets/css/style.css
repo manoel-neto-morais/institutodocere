@@ -146,6 +146,18 @@ section h3 {
 }
 
 
+/*BANNER*/
+
+.banner {
+    max-height: 60vh;
+}
+
+.banner img {
+    height: 60vh;
+    width: auto;
+}
+
+
 /*ICONES*/
 
 .social-icons {
@@ -154,16 +166,14 @@ section h3 {
 
 .social-icons a {
     display: inline-block;
-    height: 3.8rem;
-    width: 3.8rem;
+    height: 4rem;
+    width: 4rem;
     background-color: #15536b;
     color: #fff!important;
     border-radius: 100%;
     text-align: center;
-    font-size: 1.8rem;
-    line-height: 3.8rem;
-    margin-right: 0.5rem;
-    margin-left: 0px;
+    font-size: 2rem;
+    line-height: 4rem;
 }
 
 .social-icons a:last-child {
@@ -245,26 +255,12 @@ footer img {
         color: white;
         font-size: 14pt;
     }
-    .icons a {
-        display: inline-block;
-        color: rgba(255, 255, 255, 0.774);
-        border-radius: 100%;
-        text-align: center;
-        font-size: 1.1rem;
-        margin-right: 1rem;
+    .banner {
+        max-height: 60vh;
+        max-width: 100vh;
     }
-    .social-icons a {
-        display: inline-block;
-        height: 4rem;
-        width: 4rem;
-        background-color: #15536b;
-        color: #fff!important;
-        border-radius: 100%;
-        text-align: center;
-        font-size: 2rem;
-        line-height: 4rem;
-        margin-right: 1.5rem;
-        margin-left: 0px;
+    .banner img {
+        height: 60vh;
     }
 }
 
