@@ -36,12 +36,17 @@ section#carrousel {
     min-height: 25vh;
     text-align: center;
     padding: 10px;
-    background-color: rgba(95, 158, 160, 0.795);
+    background-color: rgba(163, 153, 153, 0.795);
 }
 
 .onde_estamos img {
     opacity: 0.8;
-    height: 60vh;
+    height: 50vh;
+}
+
+.onde_estamos small {
+    padding: 0px;
+    margin: 0px;
 }
 
 .onde_estamos h1 {
@@ -49,6 +54,12 @@ section#carrousel {
     font-size: 28pt;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.801);
     font-family: 'Cantora One', sans-serif;
+}
+
+.onde_estamos h2 {
+    color: #15536b;
+    font-family: 'Merienda', cursive;
+    font-size: 16pt;
 }
 
 
