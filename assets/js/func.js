@@ -34,7 +34,6 @@ function changecity() {
 }
 
 
-
 //tornando um objeto arrastável
 var dragMe = document.getElementById("drag_me");
 /* o x inicial do drag*/
@@ -68,7 +67,14 @@ function dragEnd() {
     /* remove os eventos */
     removeEventListener("mousemove", dragMove);
     removeEventListener("mouseup", dragEnd);
+    removeListener("touchmove", dragMove);
+    removeListener("touchend", dragEnd);
 }
 
 /* adiciona o evento que começa o drag */
 dragMe.addEventListener("mousedown", dragStart);
+
+function changeicon() {
+    var x = document.querySelector(".access-button")
+    x.setAttribute("src", "assets/img/user.svg")
+}
