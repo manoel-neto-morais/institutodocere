@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Cantora+One&family=Merienda:wght@700&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+
 
 /*AREA DO CABEÇALHO*/
 
@@ -37,11 +41,11 @@ section#carrousel {
     text-align: center;
     padding: 10px;
     background-color: white;
+    scroll-behavior: smooth;
 }
 
 .onde_estamos img {
     opacity: 0.8;
-    height: 47vh;
 }
 
 .onde_estamos h1 {
