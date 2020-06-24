@@ -2,7 +2,6 @@
 .fotos {
     overflow-x: scroll;
     overflow-y: visible;
-    height: 225px;
 }
 
 ul#album-fotos {

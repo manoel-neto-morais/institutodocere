@@ -29,6 +29,14 @@ section#carrousel {
     text-align: center;
 }
 
+#drag_me {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    position: absolute;
+}
+
 
 /*ONDE ESTAMOS*/
 
