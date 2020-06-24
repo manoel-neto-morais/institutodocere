@@ -1,3 +1,4 @@
+new window.VLibras.Widget('https://vlibras.gov.br/app');
 // Exemplo de JavaScript inicial para desativar envios de formulário, se houver campos inválidos.
 (function() {
     'use strict';
@@ -67,8 +68,7 @@ function dragEnd() {
     /* remove os eventos */
     removeEventListener("mousemove", dragMove);
     removeEventListener("mouseup", dragEnd);
-    removeListener("touchmove", dragMove);
-    removeListener("touchend", dragEnd);
+
 }
 
 /* adiciona o evento que começa o drag */
