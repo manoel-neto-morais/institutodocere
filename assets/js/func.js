@@ -35,6 +35,7 @@ function changecity() {
 
 
 
+//tornando um objeto arrastável
 var dragMe = document.getElementById("drag_me");
 /* o x inicial do drag*/
 dragOfX = 0;
@@ -51,6 +52,8 @@ function dragStart(e) {
     /* adiciona os eventos */
     addEventListener("mousemove", dragMove);
     addEventListener("mouseup", dragEnd);
+    addEventListener("touchmove", dragMove);
+    addEventListener("touchend", dragEnd);
 }
 
 /* ao ser arrastado */
