@@ -35,11 +35,11 @@ function changecity() {
 
 
 
-var dragMe = document.getElementById("drag_me"),
-    /* o x inicial do drag*/
-    dragOfX = 0,
-    /* o y inicial do drag */
-    dragOfY = 0;
+var dragMe = document.getElementById("drag_me");
+/* o x inicial do drag*/
+dragOfX = 0;
+/* o y inicial do drag */
+dragOfY = 0;
 
 /* ao segurar o elemento */
 function dragStart(e) {
@@ -57,7 +57,7 @@ function dragStart(e) {
 function dragMove(e) {
     /* atualiza a posição do elemento */
     dragMe.style.left = (e.pageX - dragOfX) + 'px';
-    dragMe.style.top = (e.pageY - dragOfY) + 'px';
+    dragMe.style.top = (e.pageY - dragOfY + 200) + 'px';
 }
 
 /* ao terminar o drag */
