@@ -387,6 +387,31 @@ footer img {
         font-size: 1.3rem;
         line-height: 3rem;
     }
+    .btn-3 {
+        color: #174873;
+        background: none;
+        border: none;
+        width: auto;
+        margin: 0px;
+        padding: 0px;
+        font-size: 11pt;
+    }
+    .btn-3:hover {
+        font-weight: bolder;
+        text-decoration-color: #174873;
+        color: #174873;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        border-top: 1px solid #174873;
+        border-bottom: 1px solid #174873;
+        transition: 1s;
+        display: block;
+        max-width: 576px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
 }
 
 @media (min-width: 992px) {}
