@@ -115,7 +115,23 @@
         background-size: 100% 100%;
     }
     
-    @media (min-width: 576px) {}
+    @media (min-width: 576px) {
+        ul#album-fotos {
+            width: auto;
+            height: 60vh;
+            margin: 0 auto;
+            padding: 0px;
+            list-style: none;
+            border-right: 2px solid #174873;
+            border-left: 2px solid #174873;
+            border-top: none;
+            border-bottom: none;
+            margin-top: 20px;
+            overflow-y: scroll;
+            box-shadow: none;
+            padding: 0%;
+        }
+    }
     
     @media (min-width: 768px) {}
     
