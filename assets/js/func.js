@@ -29,9 +29,18 @@ $(function() {
 
 //manipula fotos
 
-function changecity() {
+function changeToSobral() {
     let region = document.getElementById("regiao")
-    region.innerHTML = "Tianguá"
+    let css = document.getElementById("fotos")
+    region.innerHTML = "Sobral"
+    css.setAttribute("href", "assets/css/sobral.css")
+}
+
+function changeToTiangua() {
+    let region = document.getElementById("regiao")
+    let css = document.getElementById("fotos")
+    region.innerHTML = "Tiangua"
+    css.setAttribute("href", "assets/css/tiangua.css")
 }
 
 
@@ -76,7 +85,7 @@ dragMe.addEventListener("mousedown", dragStart);
 dragMe.addEventListener("touchmove", dragStart);
 
 
-function changeicon() {
-    var x = document.querySelector(".access-button")
-    x.setAttribute("src", "assets/img/user.svg")
+function changeTam() {
+    var x = document.querySelector("#canvas")
+    x.setAttribute("height", "160")
 }

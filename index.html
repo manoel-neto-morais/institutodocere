@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/all.min.css">
-    <link rel="stylesheet" href="assets/css/fotos.css">
+    <link rel="stylesheet" id="fotos" href="assets/css/sobral.css">
     <link rel="shortcut icon" href="assets/img/VERTICAL2.png" type="image/x-icon">
 
 </head>
@@ -199,12 +199,16 @@
             <div class="col-12 onde_estamos d-lg-flex justify-content-lg-around p-2 overflow-hidden">
 
                 <div class="mapa">
-                    <h1>Onde estamos!</h1>
+                    <h1>Onde Estamos</h1>
+                    <small class="d-flex justify-content-end">
+                        <i class="far fa-hand-point-down"> Toque na cidade <br> para acessar a galeria de fotos!  </i></small>
                     <img src="assets/img/mapa_peq.png" usemap="#meumapa" id="mapa">
                     <map name="meumapa">
                         <!-- <area shape="rect" coords="179,202,270,260" href="google-glass.html#tela" target="janela"> -->
-
-                        <area shape="poly" coords="10,10,82,6,45,71,4,35" href="#mapa" onclick="changecity()" title="Tianguá" style="cursor: pointer;">
+                        <area shape="poly" coords="84,6,81,35,50,84,46,112,87,133,110,90,83,74" href="#mapa" onclick="changeToSobral()" title="Sobral" style="cursor: pointer;">
+                        
+                        <area shape="poly" coords="10,10,82,6,45,71,4,35" href="#mapa" onclick="changeToTiangua()" title="Tianguá" style="cursor: pointer;">
+                        
                       </map>
 
                 </div>
@@ -321,11 +325,9 @@
     </footer>
 
     <div vw class="enabled" id="drag_me">
-        <div vw-access-button class="active">
-
-        </div>
-        <div vw-plugin-wrapper>
-            <div class="vw-plugin-top-wrapper"></div>
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper onload="changeTam()">
+            <div class="vw-plugin-top-wrapper" id="boneco"></div>
         </div>
     </div>
     <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cantora+One&family=Merienda:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 html {
     scroll-behavior: smooth;
 }
@@ -51,14 +52,29 @@ section#carrousel {
 .onde_estamos h1 {
     color: #174873;
     font-size: 28pt;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.801);
-    font-family: 'Cantora One', sans-serif;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.801);
+    font-family: 'Anton', sans-serif;
+    border-bottom: 1px solid #174873;
+    margin-bottom: 0px;
+}
+
+.onde_estamos i {
+    color: #174873bd;
+    font-size: 8pt;
+    text-shadow: 1px 1px 1px rgba(204, 203, 203, 0.87);
+    margin-top: 2px;
+    padding: 0.2rem;
+    box-shadow: 1px 1px 4px rgba(172, 169, 165, 0.788);
 }
 
 .onde_estamos h2 {
     color: #15536b;
     font-family: 'Merienda', cursive;
     font-size: 16pt;
+}
+
+#canvas {
+    width: 100px;
 }
 
 
