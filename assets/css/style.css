@@ -49,13 +49,14 @@ section#carrousel {
     opacity: 0.8;
 }
 
-.onde_estamos h1 {
+.onde_estamosh1 {
     color: #174873;
     font-size: 28pt;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.801);
     font-family: 'Anton', sans-serif;
     border-bottom: 1px solid #174873;
     margin-bottom: 0px;
+    margin-top: 8px;
 }
 
 .onde_estamos i {
@@ -414,7 +415,11 @@ footer img {
     }
 }
 
-@media (min-width: 992px) {}
+@media (min-width: 992px) {
+    .btn-3 {
+        font-size: 12pt;
+    }
+}
 
 @media (min-width: 1200px) {
     .btn-2 {
@@ -452,6 +457,7 @@ footer img {
         color: #174873;
         background: none;
         border: none;
+        font-size: 12pt;
     }
     .btn-3:hover {
         font-weight: bolder;
