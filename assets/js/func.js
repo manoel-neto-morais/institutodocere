@@ -73,6 +73,8 @@ function dragEnd() {
 
 /* adiciona o evento que começa o drag */
 dragMe.addEventListener("mousedown", dragStart);
+dragMe.addEventListener("touchmove", dragStart);
+
 
 function changeicon() {
     var x = document.querySelector(".access-button")
