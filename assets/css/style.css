@@ -302,10 +302,49 @@ footer img {
     padding-right: 0px;
 }
 
+.map_iframe {
+    width: auto;
+    height: auto;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
 
 /* MEDIA QUERIES - CONFIGURAÇÃO DOS BREACKPOINTS */
 
-@media (min-width: 576px) {}
+@media (min-width: 576px) {
+    /*BANNER*/
+    .banner {
+        max-height: 80vh;
+        box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.904);
+        width: 100%;
+    }
+    .banner img {
+        height: 80vh;
+        width: 100%;
+    }
+    .social-icons a {
+        display: inline-block;
+        height: 5rem;
+        width: 5rem;
+        background-color: #15536b;
+        color: #fff!important;
+        border-radius: 100%;
+        text-align: center;
+        font-size: 2.5rem;
+        line-height: 5rem;
+    }
+    .map_iframe {
+        margin: 20px;
+        margin-left: 30px;
+        width: auto;
+        height: auto;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+    }
+}
 
 @media (min-width: 768px) {
     .btn-one {
@@ -336,6 +375,17 @@ footer img {
         -moz-border-radius: 4px;
         -webkit-border-radius: 4px;
         border-radius: 4px;
+    }
+    .social-icons a {
+        display: inline-block;
+        height: 3rem;
+        width: 3rem;
+        background-color: #15536b;
+        color: #fff!important;
+        border-radius: 100%;
+        text-align: center;
+        font-size: 1.3rem;
+        line-height: 3rem;
     }
 }
 
