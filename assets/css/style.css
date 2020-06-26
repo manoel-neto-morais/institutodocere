@@ -330,19 +330,19 @@ footer img {
     }
     .chamada h1 {
         color: #174873;
-        font-size: 30pt;
+        font-size: 20pt;
         text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.801);
         font-family: 'Cantora One', sans-serif;
     }
     .chamada h2 {
         color: #15536b;
         font-family: 'Merienda', cursive;
-        font-size: 18pt;
+        font-size: 14pt;
     }
     .chamada i {
         opacity: 0.5;
         color: #15536b;
-        font-size: 18pt;
+        font-size: 12pt;
         margin: 2px;
     }
     .social-icons a {
