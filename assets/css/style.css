@@ -310,6 +310,7 @@ footer img {
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     border-radius: 10px;
+    margin-left: 15px;
 }
 
 
@@ -318,13 +319,31 @@ footer img {
 @media (min-width: 576px) {
     /*BANNER*/
     .banner {
-        max-height: 80vh;
+        max-height: 40vh;
         box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.904);
-        width: 100%;
+        width: 80vh;
+        margin: 10px;
     }
     .banner img {
-        height: 80vh;
+        height: 40vh;
         width: 100%;
+    }
+    .chamada h1 {
+        color: #174873;
+        font-size: 30pt;
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.801);
+        font-family: 'Cantora One', sans-serif;
+    }
+    .chamada h2 {
+        color: #15536b;
+        font-family: 'Merienda', cursive;
+        font-size: 18pt;
+    }
+    .chamada i {
+        opacity: 0.5;
+        color: #15536b;
+        font-size: 18pt;
+        margin: 2px;
     }
     .social-icons a {
         display: inline-block;
