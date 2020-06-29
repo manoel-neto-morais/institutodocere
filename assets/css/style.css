@@ -296,12 +296,12 @@ footer img {
     border-top: 1px solid #174873;
     border-bottom: 1px solid #174873;
     transition: 1s;
-    display: block;
-    max-width: 576px;
+    width: 100%;
     margin-left: 0px;
     margin-right: 0px;
     padding-left: 0px;
     padding-right: 0px;
+    align-items: center;
 }
 
 .map_iframe {
@@ -438,6 +438,30 @@ footer img {
 @media (min-width: 992px) {
     .btn-3 {
         font-size: 12pt;
+    }
+    .banner {
+        max-height: 80vh;
+        max-width: 140vh;
+        margin: 10px;
+        -moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+        border-radius: 4px;
+        box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.801);
+        margin-top: 0px;
+    }
+    .banner img {
+        height: 80vh;
+        -moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+        border-radius: 4px;
+    }
+    .chamada h1 {
+        font-size: 24pt;
+        margin: 0px;
+    }
+    .chamada h2 {
+        font-size: 14pt;
+        margin: 0px
     }
 }
 
