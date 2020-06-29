@@ -285,25 +285,25 @@
             </div>
             <div class="col-12 col-md-4 py-3 pl-0">
                 <h3 class="text-left">Contato Rápido</h3>
-                <form class="mx-0 p-0 needs-validation" novalidate>
+                <form class="mx-0 p-0 needs-validation" novalidate method="POST" action="enviarEmail.php">
                     <div class="form-row">
                         <div class="form-group col p-2 ">
-                            <input type="text" class="form-control m-2 bg" id="nome" placeholder="Nome" required>
+                            <input type="text" name="nome" class="form-control m-2 bg" id="nome" placeholder="Nome" required>
                             <div class="invalid-feedback">
                                 Por favor, preencha o campo com o seu Nome.
                             </div>
-                            <input type="tel" class="form-control m-2 bg" id="telefone" placeholder="Telefone com DDD" required>
+                            <input type="tel" name="tel" class="form-control m-2 bg" id="telefone" placeholder="Telefone com DDD" required>
                             <div class="invalid-feedback">
                                 Por favor, preencha o campo com o seu telefone.
                             </div>
 
-                            <input type="email" class="form-control m-2 bg" id="email" aria-describedby="emailHelp" placeholder="E-mail" required>
+                            <input type="email" name="email" class="form-control m-2 bg" id="email" aria-describedby="emailHelp" placeholder="E-mail" required>
                             <small id="email" class="form-text text-muted font-italic" style="text-align: right; margin-top: -10px; margin-bottom: -10px;">Nunca vamos compartilhar seu email, com ninguém.</small>
                             <div class="invalid-feedback">
                                 Por favor, preencha o campo com o seu e-mail.
                             </div>
 
-                            <input type="text" class="form-control m-2 bg" id="assunto" placeholder="Assunto" required>
+                            <input type="text" name="assunto" class="form-control m-2 bg" id="assunto" placeholder="Assunto" required>
 
                             <div class="invalid-feedback">
                                 Por favor, informe o assunto.
