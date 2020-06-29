@@ -10,5 +10,7 @@ $corpo = "
 ";
 
 mail("manoel.neto.morais@gmail.com", $assunto, $corpo, "From: ".$_POST['tel']);
+
 echo "Dados enviados com sucesso!";
- 
+
+?>
